@@ -1,0 +1,39 @@
+#body{
+    width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    margin-bottom: 0px;
+}
+.highlight{
+    color: orangered;
+}
+table, th, td{
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.lat{
+    font-style: italic;
+    font-weight: bold;
+    background-color: gray;
+}
+#one{
+    display: flex;
+    width: 800px;
+    gap: 30px;
+}
+#one.imge{
+    justify-content: flex-end;
+}
+#two{
+    display: flex;
+    width: 800px;
+    gap: 30px;
+}
+#three{
+    display: flex;
+    width: 800px;
+    gap: 30px;
+}

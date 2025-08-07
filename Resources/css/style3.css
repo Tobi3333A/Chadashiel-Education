@@ -1,0 +1,55 @@
+nav{
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    gap: 30px;
+    text-decoration: none;
+    margin-right: 60px;
+}
+main h2{
+    padding-top: 5px;
+}
+header img{
+    margin-left: 60px;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 800px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+main{
+    background-color: rgb(1, 1, 24);
+    color: white;
+    margin-top: 70px;
+}
+.name{
+    text-align: center;
+    margin: 0%;
+}
+#body{
+    margin-left: 40px;
+}
+img{
+    margin-bottom: 0px;
+}
+#body{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
