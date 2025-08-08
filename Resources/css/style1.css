@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 450px;
     background-color: rgb(1, 24, 24);
     margin-top: 0px;
     margin-bottom: 2px;
@@ -96,7 +96,7 @@ body{
     font-size: 22px;
 }
 .welcome-text{
-    width: 500px;
+    width: 700px;
     height: fit-content;
     color: white;
 }
