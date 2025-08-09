@@ -14,7 +14,7 @@ main h2{
     padding-top: 5px;
 }
 header img{
-    margin-left: 60px;
+    margin-left: 100px;
 }
 body{
     margin: 0;
@@ -28,10 +28,9 @@ header{
     position: fixed;
     top: 0;
     display: flex;
-    gap: 800px;
     width: 100%;
     background-color: white;
-    justify-content: center;
+    justify-content: space-between;
 }
 main{
     background-color: rgb(1, 1, 24);

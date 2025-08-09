@@ -18,16 +18,18 @@ header{
     z-index: 1000;
     top: 0;
     display: flex;
-    gap: 800px;
     width: 100%;
     background-color: white;
-    justify-content: center;
+    justify-content: space-between;
 }
 main{
     margin-top: 70px; /* Adjust based on header height */
 }
 header img{
-    margin-left: 60px;
+    margin-left: 100px;
+}
+header nav{
+    margin-right: 60px;
 }
 input[type="text"]{
     padding: 10px 0px;
@@ -65,9 +67,10 @@ body{
 }
 #about{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    max-height: 600px;
     background-color: rgb(1, 24, 24);
     margin-top: 0px;
     margin-bottom: 2px;
@@ -77,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    max-height: 400px;
     background-color: rgb(1, 1, 24);
     margin-top: 3px;
     margin-bottom: 0px;
@@ -86,7 +89,7 @@ body{
 }
 .weltext{
     color: white;
-    width: 500px;
+    max-width: 500px;
     height: fit-content;
 }
 .weltext h3{
@@ -96,7 +99,7 @@ body{
     font-size: 22px;
 }
 .welcome-text{
-    width: 700px;
+    max-width: 700px;
     height: fit-content;
     color: white;
 }
@@ -115,13 +118,14 @@ body{
     justify-content: center;
     margin-top: 3px;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 3px;
 }
 #offer1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    max-height: 400px;
     margin-top: 0px;
     margin-bottom: 0px;
     gap: 40px;
@@ -136,10 +140,11 @@ body{
 #Offer h3{
     font-size: 26px;
     text-decoration: underline;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 #Offer ul li{
-    width: 150px;
+    max-width: 150px;
     border-radius: 4px;
     border: medium solid rgb(1, 1, 32);
     text-align: center;
@@ -165,7 +170,7 @@ body{
     margin-left: 30px;
 }
 .contact-info{
-    width: 500px;
+    max-width: 500px;
     border: thin solid rgb(12, 12, 240);
     border-radius: 10px;
     margin-bottom: 30px;
@@ -206,7 +211,8 @@ script{
 }
 .contact-form{
     margin-left: 30px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 400px;
     border: thin solid rgb(12, 12, 240);
     box-shadow: 0 0 7px white;
     border-radius: 10px;

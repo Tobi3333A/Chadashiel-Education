@@ -7,10 +7,9 @@ header{
     z-index: 1000;
     top: 0;
     display: flex;
-    gap: 800px;
     width: 100%;
     background-color: white;
-    justify-content: center;
+    justify-content: space-between;
 }
 main{
     background-color: rgb(1, 1, 24);
@@ -37,7 +36,7 @@ body{
     font-family: Arial, sans-serif;
 }
 header img{
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .name{
     text-align: center;
