@@ -164,7 +164,7 @@ body{
     margin-left: 30px;
 }
 .contact-info{
-    width: 100%;
+    max-width: 500px;
     border: thin solid rgb(12, 12, 240);
     border-radius: 10px;
     margin-bottom: 30px;
@@ -203,10 +203,10 @@ script{
     flex-wrap: wrap;
 }
 .contact-form{
-    width: 100%;
+    max-width: 500px;
     border: thin solid rgb(12, 12, 240);
     box-shadow: 0 0 7px white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 10px;
     margin-bottom: 30px;
 }
