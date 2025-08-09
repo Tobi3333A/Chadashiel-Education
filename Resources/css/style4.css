@@ -9,7 +9,7 @@ header{
     display: flex;
     width: 100%;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 main{
     background-color: rgb(1, 1, 24);
@@ -29,14 +29,10 @@ nav ul{
     justify-content: flex-end;
     gap: 30px;
     text-decoration: none;
-    margin-right: 60px;
 }
 body{
     margin: 0;
     font-family: Arial, sans-serif;
-}
-header img{
-    margin-left: 100px;
 }
 .name{
     text-align: center;

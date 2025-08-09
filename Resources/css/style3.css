@@ -8,13 +8,9 @@ nav ul{
     justify-content: flex-end;
     gap: 30px;
     text-decoration: none;
-    margin-right: 60px;
 }
 main h2{
     padding-top: 5px;
-}
-header img{
-    margin-left: 100px;
 }
 body{
     margin: 0;
@@ -30,7 +26,7 @@ header{
     display: flex;
     width: 100%;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 main{
     background-color: rgb(1, 1, 24);
