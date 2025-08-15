@@ -9,6 +9,10 @@
     height: 50px;
     background-color: rgb(1, 1, 24);
 }
+#name h2{
+    
+    transition: width 0.5s linear 0.5s;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -24,9 +28,6 @@ header{
 }
 main{
     margin-top: 70px; /* Adjust based on header height */
-}
-header nav{
-    margin-right: 60px;
 }
 input[type="text"]{
     padding: 10px 0px;
@@ -192,6 +193,9 @@ script{
 }
 .cont12{
     margin-left: 20px;
+}
+.cont11 {
+    color: darkgreen;
 }
 .cont11:hover{
     color: rgb(110, 110, 148);
