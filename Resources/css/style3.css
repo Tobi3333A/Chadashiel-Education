@@ -49,4 +49,42 @@ img{
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 2px;
+}
+footer{
+    background-color: rgb(1, 1, 24);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+.pagination a{
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+.pagination a:hover{
+  background-color: #f0f0f0;
+}
+.pagination a.active{
+  color: #00796b; 
+  font-weight: bold;
+}
+.pagination span{
+  padding: 6px 8px;
+  color: #888;
 }
